@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos&family=Nunito:ital@1&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@200&display=swap');
+
+
+body{
+  background-color:#ff9100;
+}
+
+
+.tarefas{
+  border-width:2px;
+  border-radius:10px;
+  border-color:grey;
+  background-color:teal;
+
+}
+
+.card-header{
+  color:teal;
+  font-family:'Genos', sans-serif;
+}
+
+
+#cadastro{
+  font-family:'Genos', sans-serif;
+}
+
+#icon_prefix2{
+  font-family: 'Genos', sans-serif;
+}
+
+#listagem{
+  font-family:'Genos', sans-serif;
+}
+
+#mostrar{
+  font-family: 'Genos', sans-serif;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tarefas</title>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Genos&family=Nunito:ital@1&family=Open+Sans+Condensed:wght@300&family=Poppins:wght@200&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="file.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="card">
+        <h2 class="card-header">Lista de tarefas</h2>
+        <div class="row">
+
+     <div class="col l6 m12 s12">
+         <div class="#">
+             <div class="card-image">
+                 <img src="imagens/tarefa.png">
+                 <span class="card-title">#</span>
+             </div>
+         </div>
+     </div>
+
+     <div class="col l6 m12 s12">
+            <div class="card grey lighten-3">
+                <div class="card-image">
+                    <!---inicio-->
+                    <div class="row">
+                       <div class="input-field col s6">
+                         <i class="material-icons prefix">mode_edit</i>
+                         <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                         <label for="icon_prefix2">Tarefa:</label>
+                       </div>
+                     </div>
+                     <!--botao-->
+                       <button class="btn waves-effect waves-light orange darken-3" type="submit" onclick="adcionar();"   name="action" id="cadastro">Cadastrar
+                       <i class="material-icons right">send</i>
+                      </button>
+
+                      <a class="waves-effect waves-light btn modal-trigger orange darken-3 " href="#modal1" id="mostrar">Exibir</a>
+
+                        <!-- Modal Structure -->
+                        <div id="modal1" class="modal">
+                          <div class="modal-content">
+                            <h4>Tarefas</h4>
+                            <!--lista inicio-->
+                            <div>
+                              <ul class="collection" id="listagem">
+
+                             </ul>
+                            </div>
+                            <!--lista final-->
+                          </div>
+                          <div class="modal-footer">
+                            <a href="#!" class="modal-close waves-effect waves-green btn-flat"></a>
+                          </div>
+                        </div>
+                      <!--->
+                    <!--botao-->
+                    <!---final--->
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="file.js"></script>
+  </body>
+</html>
